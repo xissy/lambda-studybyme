@@ -6,7 +6,7 @@
   "timeout": 5,
   "role": "arn:aws:iam::526343555329:role/lambda",
   "hooks": {
-    "build": "../../node_modules/.bin/babel --presets es2015 --plugins syntax-flow --plugins transform-flow-strip-types ./ -d ./",
+    "build": "../../node_modules/.bin/babel --presets es2015 ./ -d ./",
     "clean": "rm *.js"
   }
 }
