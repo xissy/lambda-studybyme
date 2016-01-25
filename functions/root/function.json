@@ -1,6 +1,6 @@
 {
-  "name": "hello",
-  "description": "Node.js example function",
+  "name": "root",
+  "description": "a root function to describe the api name and its version",
   "runtime": "nodejs",
   "memory": 128,
   "timeout": 5,
