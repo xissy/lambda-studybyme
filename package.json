@@ -1,7 +1,7 @@
 {
   "name": "lambda-studybyme",
   "version": "0.0.1",
-  "description": "",
+  "description": "studybyme.com API server with a server-less architecture using AWS lambda, API gateway, S3, and DynamoDB.",
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.4.5",
@@ -14,5 +14,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Taeho Kim <xissysnd@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xissy/lambda-studybyme"
+  },
   "license": "ISC"
 }
